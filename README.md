@@ -1,2 +1,3 @@
 # Initializing-zero
 Siamon says; its good...
+random
