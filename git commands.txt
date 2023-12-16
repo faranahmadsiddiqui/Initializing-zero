@@ -1,0 +1,34 @@
+git init	#initialize new project folder for git commands
+git config --global user.name "NAME"	#configure username for git
+git config --global user.email "EMAIL"	#configure useremail for git
+git clone REPO-URL	#clone git repo
+git status	#show changes in your working directory
+git add filename	#adds file to staging area
+git commit -m "MESSAGE"	#commit changes
+git branch BRANCH-NAME	#create branch
+git checkout BRANCH-NAME	#switch branch
+git checkout -b BRANCH-NAME	#create and switch branch
+git switch -c new_branch	#create and switch branch
+git merge branch_name	#merge current branch with specified branch
+git branch -d branch_name	#delete branch
+git branch -D branch_name	#force delete branch
+git push origin --delete branch_name	#delete branch and push changes in remote
+git branch -m new_branch_name	#rename crabch
+git branch	#view all branches
+git branch -r	#view all branches
+git branch -a	#view all branches
+git remote add origin repository_url	#add remote repository URL
+git fetch
+git pull
+git push origin branch_name
+git push --all origin  #Push all branches
+git remote remove remote_name
+git log
+git show commit_hash
+git diff branch1 branch2
+git checkout -- filename
+git reset HEAD~1
+git revert commit_hash
+git add .
+git fetch --prune origin
+git remote prune origin
