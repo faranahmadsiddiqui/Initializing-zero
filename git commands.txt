@@ -13,7 +13,7 @@ git merge branch_name	#merge current branch with specified branch
 git branch -d branch_name	#delete branch
 git branch -D branch_name	#force delete branch
 git push origin --delete branch_name	#delete branch on remote
-git branch -m new_branch_name	#rename crabch
+git branch -m new_branch_name	#rename branch
 git branch	#view all branches
 git branch -r	#view all branches
 git branch -a	#view all branches
