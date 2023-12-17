@@ -24,6 +24,7 @@ git push origin branch_name
 git push --all origin  #Push all branches
 git remote remove remote_name
 git log
+git reset --hard
 git show commit_hash
 git diff branch1 branch2
 git checkout -- filename
